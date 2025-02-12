@@ -3,7 +3,7 @@ const router = express.Router();
 const MercadoPagoController = require("./Controllers/MercadoPagoController.js");
 const UserController = require("./Controllers/UserController.js");
 const ImpressorasController = require("./Controllers/ImpressorasController.js");
-const AuthMiddleware = require("./Middleware/AuthMiddleware.js");
+const AuthMiddleware = require("./Middlewares/AuthMiddleware.js");
 
 // Rotas de Login e cadastro de usuários
 router.post("/login", UserController.authenticate);
