@@ -11,5 +11,5 @@ server.use("/api", require("./routes.js"));
 
 const PORT = process.env.PORT || 4000;
 server.listen(PORT, "0.0.0.0", () => {
-    console.log(`Servidor backend iniciado em http://localhost:${PORT}`);
+	console.log(`Servidor backend iniciado em http://localhost:${PORT}`);
 });

@@ -1,7 +1,5 @@
 const conn = require("./Conn/Database.js");
 
-class MercadoPagoModel {
-
-}
+class MercadoPagoModel {}
 
 module.exports = new MercadoPagoModel();

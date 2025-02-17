@@ -14,7 +14,6 @@ router.use(AuthMiddleware.verifyUserToken);
 
 // Rotas de pagamento com MercadoPago (requer autenticação)
 router.post("/pix", MercadoPagoController.createPixPayment);
-router.get("/status/:paymentId", MercadoPagoController.checkPaymentStatus);
 
 // Busca Impressoras (requer autenticação)
 router.get("/getPrinters", ImpressorasController.getAllPrinters);
